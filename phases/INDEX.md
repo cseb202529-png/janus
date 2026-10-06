@@ -2,8 +2,8 @@
 | # | Phase | Status |
 |---|---|---|
 | 00 | [Project Specification](00_project_specification.md) | delivered — awaiting Director approval |
-| 01 | [Environment](01_environment.md) | not started |
-| 02 | [Repository Bootstrap](02_repository_bootstrap.md) | not started |
+| 01 | [Environment](01_environment.md) | delivered — awaiting Director approval |
+| 02 | [Repository Bootstrap](02_repository_bootstrap.md) | delivered — awaiting Director approval |
 | 03 | [Tokenizer](03_tokenizer.md) | not started |
 | 04 | [Baseline 1M Model](04_baseline_1m_model.md) | not started |
 | 05 | [Automated Parameter Accounting](05_automated_parameter_accounting.md) | not started |

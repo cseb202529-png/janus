@@ -29,3 +29,5 @@ janus = ["**/*.spec.md", "**/README.md"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+# src/ layout: import janus without requiring an install (Phase 02).
+pythonpath = ["src"]
