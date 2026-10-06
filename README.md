@@ -28,5 +28,8 @@
 | `tests/`, `scripts/` | Test and script specs |
 | `reports/`, `runs/`, `logs/`, `checkpoints/`, `data/` | Runtime outputs (see each README) |
 
+## REPOSITORY / DELIVERY
+All work is committed and pushed to **https://github.com/cseb202529-png/janus.git** (`origin`, branch `main`) after every unit of work. See `docs/DELIVERY.md`.
+
 ## STATUS
 Current phase: **00 — Project Specification**. Update `phases/INDEX.md` when a phase passes its gate.
