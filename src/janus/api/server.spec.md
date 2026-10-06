@@ -1,0 +1,2 @@
+# Spec: `src/janus/api/server.py` (Phase 49)
+FastAPI app. Endpoints: GET /health; GET /model (params, config, tokenizer version, checkpoint version); POST /generate (prompt + generation config → text/stream); POST /chat (messages → reply/stream); POST /memory/search (query, k); POST /memory/write (content, metadata). Config-driven host/port; no hard-coded paths. Tests: endpoint contract tests with a tiny model on CPU. Label: ESTABLISHED.

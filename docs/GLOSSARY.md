@@ -1,0 +1,2 @@
+# Glossary
+GQA grouped-query attention · MLA multi-head latent attention · SSM state-space model · MoE mixture of experts · TRM tiny recursive model / recursive refinement · KD knowledge distillation · FDD feedback-driven distillation · MSKD multi-step KD · GRA generator-reviewer-adjudicator · GRPO group relative policy optimization · BREAD branched rollouts with expert anchors · NeSyCD neuro-symbolic distillation · Meta tokens learnable continuous prefix vectors.

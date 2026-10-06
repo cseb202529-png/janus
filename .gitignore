@@ -1,0 +1,47 @@
+# Per .gitignore.md spec: ignore data, checkpoints, runs, logs, caches, weights, dbs, secrets.
+# README.md placeholders inside those folders are kept via ! rules.
+
+# Runtime output dirs
+data/*
+checkpoints/*
+runs/*
+logs/*
+!data/README.md
+!checkpoints/README.md
+!runs/README.md
+!logs/README.md
+!logs/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Model artifacts / databases
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.db
+*.sqlite3
+
+# Secrets / local env
+.env
+.env.*
+secrets.*
+*.pem
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

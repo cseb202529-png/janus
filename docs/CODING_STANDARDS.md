@@ -1,0 +1,12 @@
+# Coding Standards
+- Python 3.x, PyTorch, type hints everywhere, docstrings with **input/output shapes** for every tensor op.
+- Small, independently testable modules. One responsibility per file. Follow the layout in `src/janus/*/` specs exactly.
+- No hard-coded device, dtype, path, or hyperparameter. Device via `utils/device.py`; settings via YAML config dataclasses.
+- Clear PyTorch first; optimize only after correctness is proven by tests and a benchmark.
+- Numerical stability: documented epsilon, fp32 for softmax/normalization/loss accumulation where needed.
+- Every experimental component has a config flag and a registry entry.
+- Deterministic seeds via `utils/seed.py`. Reproducibility notes per experiment.
+- Structured logging (JSON lines) via `utils/logging.py`; no bare prints in library code.
+- Errors: raise explicit exceptions with actionable messages; never swallow exceptions.
+- Public interfaces are stable; breaking changes require a note in `CHANGELOG.md` and Director approval.
+- Each module exposes a parameter-count method that reconciles with `model/parameter_counter.py`.
