@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "janus"
+version = "0.1.0"
+description = "Janus: research-grade ~125M decoder-only autoregressive language model (AI-first workflow)"
+readme = "README.md"
+requires-python = ">=3.10"
+# License intentionally not declared: LICENSE.md says the Project Director chooses
+# the license before first release; AI agents must not pick one.
+dependencies = [
+    "torch>=2.2",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+janus = ["**/*.spec.md", "**/README.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,6 @@
+# Janus dependencies (Phase 01)
+# Core runtime
+torch>=2.2
+PyYAML>=6.0
+# Tests (CPU, tiny configs per docs/TESTING_STANDARDS.md)
+pytest>=8.0

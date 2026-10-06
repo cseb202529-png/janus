@@ -1,7 +1,7 @@
 # Phase Index (update status as phases pass)
 | # | Phase | Status |
 |---|---|---|
-| 00 | [Project Specification](00_project_specification.md) | not started |
+| 00 | [Project Specification](00_project_specification.md) | delivered — awaiting Director approval |
 | 01 | [Environment](01_environment.md) | not started |
 | 02 | [Repository Bootstrap](02_repository_bootstrap.md) | not started |
 | 03 | [Tokenizer](03_tokenizer.md) | not started |
